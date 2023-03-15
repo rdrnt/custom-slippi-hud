@@ -3,3 +3,4 @@
 /component.json
 /npm-shrinkwrap.json
 *.slp
+.DS_Store
