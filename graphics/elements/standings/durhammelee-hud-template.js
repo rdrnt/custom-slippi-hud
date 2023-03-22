@@ -544,7 +544,7 @@ position: absolute;
 #new_Index-${this.playerData[1].slippi.id}-Stats{
   position: absolute;
   top: 184px;
-  left: 1237;
+  left: 1237px;
   width: 180px;
   font-size: 23px;
   text-align: center;
