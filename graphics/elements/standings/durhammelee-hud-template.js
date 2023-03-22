@@ -11,9 +11,9 @@ return html``;
 
 return html`
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 #container {
 	position: absolute;
@@ -193,7 +193,7 @@ position: absolute;
 	
 }
 #Stat5 {
-	padding-top: 69px;
+	padding-top: 64px;
 	
 }
 #Stat6 {
@@ -534,21 +534,21 @@ position: absolute;
 
 #new_Index-${this.playerData[0].slippi.id}-Stats{
   position: absolute;
-      top: 184px;
-      left: 550px;
-    width: 156px;
-      font-size: 23px;
-      text-align: center;
-    color: white;
+  top: 184px;
+  left: 507px;
+  width: 180px;
+  font-size: 23px;
+  text-align: center;
+  color: white;
 }
 #new_Index-${this.playerData[1].slippi.id}-Stats{
-    position: absolute;
-      top: 184px;
-      left: 1215px;
-    width: 156px;
-      font-size: 23px;
-      text-align: center;
-    color: white;
+  position: absolute;
+  top: 184px;
+  left: 1237;
+  width: 180px;
+  font-size: 23px;
+  text-align: center;
+  color: white;
 }
 #new_statLabel{
 	position: absolute;
