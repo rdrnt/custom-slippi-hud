@@ -520,7 +520,7 @@ position: absolute;
   background-color: transparent;
   top: 800px;
 
-  color: #242424;
+  color: #f9f9f9;
   font-size: 36px;
   font-weight: 600;
   line-height: 80px;
@@ -608,7 +608,7 @@ position: absolute;
 		<div id="Stat3" class="stat">${this.statData.latestSet.akp1}</div>
 		<div id="Stat4" class="stat">${this.statData.latestSet.ipm1}</div>
 		<div id="Stat5" class="stat">${this.statData.latestSet.nw1}</div>
-		<div id="Stat6" class="stat">${this.statData.latestSet.lc1}</div>
+		<div id="Stat6" class="stat">${this.statData.latestSet.hdp1}</div>
 	</div>
 
 	<div id="new_Index-1-Stats">
@@ -617,7 +617,7 @@ position: absolute;
 		<div id="Stat3" class="stat">${this.statData.latestSet.akp2}</div>
 		<div id="Stat4" class="stat">${this.statData.latestSet.ipm2}</div>
 		<div id="Stat5" class="stat">${this.statData.latestSet.nw2}</div>
-		<div id="Stat6" class="stat">${this.statData.latestSet.lc2}</div>
+		<div id="Stat6" class="stat">${this.statData.latestSet.hdp2}</div>
 	</div>
 	<div id="new_statLabel">
 		<div id="Stat1" class="label2">Neutral Openers</div>
@@ -625,7 +625,7 @@ position: absolute;
 		<div id="Stat3" class="label2">Average Kill %</div>
 		<div id="Stat4" class="label2">Inputs Per Minute</div>
 		<div id="Stat5" class="label2">Neutral Wins</div>
-		<div id="Stat6" class="label2">L-Cancel %</div>
+		<div id="Stat6" class="label2">Highest % Punish</div>
 	</div>
 
   <div>
