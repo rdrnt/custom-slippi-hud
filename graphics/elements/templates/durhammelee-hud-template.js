@@ -13,7 +13,7 @@ return html`
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 #BG {
 	position: absolute;
@@ -23,6 +23,7 @@ return html`
 	width: 1920px;
 	height: 1080px;
 	overflow: hidden;
+  font-family: 'Inter', sans-serif;
   font-family: 'Roboto', sans-serif;
   z-indx: 0;
 }
@@ -34,7 +35,6 @@ return html`
 	width: 1920px;
 	height: 1080px;
 	overflow: hidden;
-  font-family: 'Roboto', sans-serif;
   z-index: 1;
 }
 
@@ -216,23 +216,25 @@ return html`
   height: 70px;
   width: 100px;
   border-radius: 15px;
-  background-color: #f9f9f9;
+  background-color: red;
 }
+
 #scoreboard_player1_char {
   position: absolute;
   top: 0;
   left: 0;
   background: url('./img/characters/${this.playerData[0].slippi.character.id}/${this.playerData[0].slippi.character.costumeId}/portrait.png') 0px 0px no-repeat;
-  background-color: #f9f9f9;
+  background-color: blue;
   background-size: 90%;
   transform: scaleX(-1);
 }
+
 #scoreboard_player2_char {
   position: absolute;
   top: 0;
   right: 0;
   background: url('./img/characters/${this.playerData[1].slippi.character.id}/${this.playerData[1].slippi.character.costumeId}/portrait.png') 5px 0px no-repeat;
-  background-color: #f9f9f9;
+  background-color: blue;
   background-size: 90%;
 }
 
