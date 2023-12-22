@@ -36,6 +36,8 @@ return html`
 	height: 1080px;
 	overflow: hidden;
   z-index: 1;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -178,7 +180,7 @@ return html`
   position: absolute;
   top: 15px;
   left: 1200px;
-  border-radius: 15px;
+  border-radius: 3px;
   width: 240px;
   height: 80px;
   background-color: transparent;
@@ -213,10 +215,10 @@ return html`
 }
 
 .scoreboard_player_char {
-  height: 70px;
-  width: 100px;
-  border-radius: 15px;
-  background-color: red;
+  height: 65px;
+  width: 80px;
+  border-radius: 3px;
+  background-color: white;
 }
 
 #scoreboard_player1_char {
@@ -224,7 +226,6 @@ return html`
   top: 0;
   left: 0;
   background: url('./img/characters/${this.playerData[0].slippi.character.id}/${this.playerData[0].slippi.character.costumeId}/portrait.png') 0px 0px no-repeat;
-  background-color: blue;
   background-size: 90%;
   transform: scaleX(-1);
 }
@@ -234,7 +235,6 @@ return html`
   top: 0;
   right: 0;
   background: url('./img/characters/${this.playerData[1].slippi.character.id}/${this.playerData[1].slippi.character.costumeId}/portrait.png') 5px 0px no-repeat;
-  background-color: blue;
   background-size: 90%;
 }
 
@@ -276,9 +276,9 @@ return html`
 
 .new_player_scorebox {
   position: absolute;
-  height: 55px;
-  width: 55px;
-  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 3px;
 }
 #new_player1_scorebox {
   top: 27px;
@@ -334,7 +334,7 @@ return html`
   line-height: 75px;
   font-size: 28px;
   font-weight: bold;
-  color: white;
+  color: black;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
