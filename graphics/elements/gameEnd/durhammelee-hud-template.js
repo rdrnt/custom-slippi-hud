@@ -196,6 +196,7 @@ position: absolute;
   font-size: 22px;
   line-height: 50px;
   letter-spacing: 1px;
+  text-transform: none;
 }
 
 .comm_container {
