@@ -604,28 +604,28 @@ position: absolute;
 
 	<div id="new_Index-0-Stats">
 		<div id="Stat1" class="stat">${this.statData.latestSet.mcno1}</div>
-		<div id="Stat2" class="stat">${this.statData.latestSet.mckm1}</div>
+		<div id="Stat2" class="stat">${this.statData.latestSet.nw1}</div>
 		<div id="Stat3" class="stat">${this.statData.latestSet.akp1}</div>
-		<div id="Stat4" class="stat">${this.statData.latestSet.ipm1}</div>
-		<div id="Stat5" class="stat">${this.statData.latestSet.nw1}</div>
-		<div id="Stat6" class="stat">${this.statData.latestSet.hdp1}</div>
+		<div id="Stat4" class="stat">${this.statData.latestSet.hdp1}</div>
+		<div id="Stat5" class="stat">${this.statData.latestSet.mckm1}</div>
+		<div id="Stat6" class="stat">${this.statData.latestSet.ipm1}</div>
 	</div>
 
 	<div id="new_Index-1-Stats">
 		<div id="Stat1" class="stat">${this.statData.latestSet.mcno2}</div>
-		<div id="Stat2" class="stat">${this.statData.latestSet.mckm2}</div>
+		<div id="Stat2" class="stat">${this.statData.latestSet.nw2}</div>
 		<div id="Stat3" class="stat">${this.statData.latestSet.akp2}</div>
-		<div id="Stat4" class="stat">${this.statData.latestSet.ipm2}</div>
-		<div id="Stat5" class="stat">${this.statData.latestSet.nw2}</div>
-		<div id="Stat6" class="stat">${this.statData.latestSet.hdp2}</div>
+		<div id="Stat4" class="stat">${this.statData.latestSet.hdp2}</div>
+		<div id="Stat5" class="stat">${this.statData.latestSet.mckm2}</div>
+		<div id="Stat6" class="stat">${this.statData.latestSet.ipm2}</div>
 	</div>
 	<div id="new_statLabel">
 		<div id="Stat1" class="label2">Neutral Openers</div>
-		<div id="Stat2" class="label2">KO Moves</div>
+		<div id="Stat2" class="label2">Neutral Wins</div>
 		<div id="Stat3" class="label2">Average Kill %</div>
-		<div id="Stat4" class="label2">Inputs Per Minute</div>
-		<div id="Stat5" class="label2">Neutral Wins</div>
-		<div id="Stat6" class="label2">Highest % Punish</div>
+		<div id="Stat4" class="label2">Highest % Punish</div>
+		<div id="Stat5" class="label2">KO Moves</div>
+		<div id="Stat6" class="label2">Inputs Per Minute</div>
 	</div>
 
   <div>
