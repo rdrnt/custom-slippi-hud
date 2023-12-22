@@ -228,6 +228,7 @@ return html`
   background: url('./img/characters/${this.playerData[0].slippi.character.id}/${this.playerData[0].slippi.character.costumeId}/portrait.png') 0px 0px no-repeat;
   background-size: 90%;
   transform: scaleX(-1);
+  background-color: #f9f9f9;
 }
 
 #scoreboard_player2_char {
@@ -236,6 +237,7 @@ return html`
   right: 0;
   background: url('./img/characters/${this.playerData[1].slippi.character.id}/${this.playerData[1].slippi.character.costumeId}/portrait.png') 5px 0px no-repeat;
   background-size: 90%;
+  background-color: #f9f9f9;
 }
 
 #scoreboard_player1_namebox {
