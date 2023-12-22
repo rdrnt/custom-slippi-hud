@@ -13,13 +13,13 @@ return html`
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 #container {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inter', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -70,6 +70,7 @@ return html`
 #bracketRound {
   letter-spacing: 2px;
   font-size: 20px;
+  text-transform: none;
 }
 #setStatsText {
   font-size: 40px;
@@ -382,7 +383,7 @@ position: absolute;
 	
 }
 .stat {
-	color: black;
+	color: white;
   letter-spacing: 2px;
 }
 .port-1 {
@@ -418,7 +419,7 @@ position: absolute;
 }
 .label2 {
 	text-align: center;
-	color: white;
+	color: black;
   letter-spacing: 2px;
 }
 .label3 {
@@ -619,8 +620,8 @@ position: absolute;
 		<div id="Stat6" class="stat">${this.statData.latestSet.lc2}</div>
 	</div>
 	<div id="new_statLabel">
-		<div id="Stat1" class="label2" style="color: white">Neutral Openers</div>
-		<div id="Stat2" class="label2" style="color: white">KO Moves</div>
+		<div id="Stat1" class="label2">Neutral Openers</div>
+		<div id="Stat2" class="label2">KO Moves</div>
 		<div id="Stat3" class="label2">Average Kill %</div>
 		<div id="Stat4" class="label2">Inputs Per Minute</div>
 		<div id="Stat5" class="label2">Neutral Wins</div>
