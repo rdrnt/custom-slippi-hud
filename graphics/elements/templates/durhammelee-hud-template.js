@@ -215,16 +215,15 @@ return html`
 }
 
 .scoreboard_player_char {
-  height: 65px;
+  height: 64px;
   width: 80px;
-  border-radius: 3px;
-  background-color: white;
+  background-color: #f9f9f9;
 }
 
 #scoreboard_player1_char {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 3px;
+  left: 1px;
   background: url('./img/characters/${this.playerData[0].slippi.character.id}/${this.playerData[0].slippi.character.costumeId}/portrait.png') 0px 0px no-repeat;
   background-size: 90%;
   transform: scaleX(-1);
@@ -233,8 +232,8 @@ return html`
 
 #scoreboard_player2_char {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 3px;
+  right: 1px;
   background: url('./img/characters/${this.playerData[1].slippi.character.id}/${this.playerData[1].slippi.character.costumeId}/portrait.png') 5px 0px no-repeat;
   background-size: 90%;
   background-color: #f9f9f9;
