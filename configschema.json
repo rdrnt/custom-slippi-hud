@@ -1,124 +1,124 @@
 {
-	"type": "object",
-	"additionalProperties": true,
-	"properties": {
-		"automateAutoScoreToggle": {
-			"type": "boolean",
-			"default": false
-		},
-		"api": {
-			"type": "object",
-			"properties": {
-				"startgg": {
-					"type": "object",
-					"properties": {
-						"key": {
-							"type": "string",
-							"default": ""
-						}
-					}
-				}
-			}
-		},
-		"hudTemplatePath": {
-			"type": "string",
-			"default": "elements/templates"
-		},
-		"slpDumpPath": {
-			"type": "object",
-			"properties": {
-				"inBundle": {
-					"type": "boolean",
-					"default": true
-				},
-				"path": {
-					"type": "string",
-					"default": "slpDumps"
-				}
-			}
-		},
-		"obs": {
-			"type": "object",
-			"properties": {
-				"scenes": {
-					"type": "object",
-					"properties": {
-						"Handwarmer": {
-							"type": "object",
-							"properties": {
-								"autoSwitch": {
-									"type": "boolean",
-									"default": true
-								},
-								"delay": {
-									"default": 0
-								}
-							}
-						},
-						"Tournament": {
-							"type": "object",
-							"properties": {
-								"autoSwitch": {
-									"type": "boolean",
-									"default": true
-								},
-								"delay": {
-									"default": 0
-								}
-							}
-						},
-						"Game End": {
-							"type": "object",
-							"properties": {
-								"autoSwitch": {
-									"type": "boolean",
-									"default": true
-								},
-								"delay": {
-									"default": 1
-								}
-							}
-						},
-						"Set End": {
-							"type": "object",
-							"properties": {
-								"autoSwitch": {
-									"type": "boolean",
-									"default": true
-								},
-								"delay": {
-									"default": 1
-								}
-							}
-						},
-						"Wait": {
-							"type": "object",
-							"properties": {
-								"autoSwitch": {
-									"type": "boolean",
-									"default": true
-								},
-								"delay": {
-									"default": 0
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		"extraStats": {
-			"type": "array",
-			"default": [
-				"ipm",
-				"dpo",
-				"lc",
-				"fb",
-				"ek",
-				"ld",
-				"sd",
-				"hdp"
-			]
-		}
-	}
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "automateAutoScoreToggle": {
+      "type": "boolean",
+      "default": false
+    },
+    "api": {
+      "type": "object",
+      "properties": {
+        "startgg": {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string",
+              "default": ""
+            }
+          }
+        }
+      }
+    },
+    "hudTemplatePath": {
+      "type": "string",
+      "default": "elements/templates"
+    },
+    "slpDumpPath": {
+      "type": "object",
+      "properties": {
+        "inBundle": {
+          "type": "boolean",
+          "default": true
+        },
+        "path": {
+          "type": "string",
+          "default": "slpDumps"
+        }
+      }
+    },
+    "obs": {
+      "type": "object",
+      "properties": {
+        "scenes": {
+          "type": "object",
+          "properties": {
+            "Handwarmer": {
+              "type": "object",
+              "properties": {
+                "autoSwitch": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "delay": {
+                  "default": 0
+                }
+              }
+            },
+            "Tournament": {
+              "type": "object",
+              "properties": {
+                "autoSwitch": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "delay": {
+                  "default": 0
+                }
+              }
+            },
+            "Game End": {
+              "type": "object",
+              "properties": {
+                "autoSwitch": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "delay": {
+                  "default": 1
+                }
+              }
+            },
+            "Set End": {
+              "type": "object",
+              "properties": {
+                "autoSwitch": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "delay": {
+                  "default": 10
+                }
+              }
+            },
+            "Wait": {
+              "type": "object",
+              "properties": {
+                "autoSwitch": {
+                  "type": "boolean",
+                  "default": true
+                },
+                "delay": {
+                  "default": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "extraStats": {
+      "type": "array",
+      "default": [
+        "ipm",
+        "dpo",
+        "lc",
+        "fb",
+        "ek",
+        "ld",
+        "sd",
+        "hdp"
+      ]
+    }
+  }
 }
