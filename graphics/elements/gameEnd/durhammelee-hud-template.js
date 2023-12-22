@@ -13,7 +13,7 @@ return html`
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 #overlay {
   top: 0px;
@@ -22,7 +22,7 @@ return html`
   height: 1080px;
   width: 1920px;
   position: absolute;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   overflow: hidden;
 }
 
@@ -150,7 +150,7 @@ position: absolute;
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 23px;
   line-height: 130px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -195,7 +195,6 @@ position: absolute;
   font-weight: 400;
   font-size: 22px;
   line-height: 50px;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
