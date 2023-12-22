@@ -24,7 +24,6 @@ return html`
 	height: 1080px;
 	overflow: hidden;
   font-family: 'Inter', sans-serif;
-  font-family: 'Roboto', sans-serif;
   z-indx: 0;
 }
 #HUD {
@@ -37,7 +36,6 @@ return html`
 	overflow: hidden;
   z-index: 1;
   font-family: 'Inter', sans-serif;
-  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -192,7 +190,7 @@ return html`
   font-size: 20px;
   width: 240px;
   height: 41px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 41px;
   letter-spacing: 2px;
 }
@@ -201,7 +199,7 @@ return html`
   height: 41px;
   font-size: 22px;
   line-height: 41px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 2px;
 }
 
@@ -266,12 +264,14 @@ return html`
 #scoreboard_player_name {
   color: white;
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 2px;
 }
+
 #scoreboard_player_pronouns {
   color: white;
   letter-spacing: 2px;
+  font-weight: 400;
 }
 
 
@@ -282,18 +282,18 @@ return html`
   border-radius: 3px;
 }
 #new_player1_scorebox {
-  top: 27px;
-  left: 1173px;
+  top: 31px;
+  left: 1175px;
 }
 #new_player2_scorebox {
-  top: 27px;
-  left: 1413px;
+  top: 31px;
+  left: 1415px;
 }
 .scorebox_score {
   text-align: center;
   color: black;
   font-size: 40px;
-  line-height: 55px;
+  line-height: 50px;
   font-weight: 600;
 }
 
