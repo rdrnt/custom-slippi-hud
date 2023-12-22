@@ -241,7 +241,7 @@ return html`
   position: absolute;
   top: 0;
   left: 100px;
-  padding-left: 25px;
+  padding-left: 5px;
   width: auto;
   height: 70px;
   display: flex;
@@ -253,7 +253,7 @@ return html`
   position: absolute;
   top: 0;
   right: 100px;
-  padding-right: 25px;
+  padding-right: 5px;
   width: auto;
   height: 70px;
   display: flex;
